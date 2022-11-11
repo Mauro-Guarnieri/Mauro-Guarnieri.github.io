@@ -1,0 +1,212 @@
+{
+  "ubuntu": {
+    "color": "ff6e1b",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Ubuntu_22.04_LTS_Jammy_Jellyfish.png",
+    "desc": "Distribución basada en Debian con GNOME",
+    "descDk": "Ubuntu es una distribución Linux basada en <a href=\"#\" target=\"__blank\">Debian</a>.<br /><br /> Puede utilizarse en ordenadores y servidores. Está orientado al usuario promedio, con un fuerte enfoque en la facilidad de uso y en mejorar la experiencia del usuario. Está compuesto de múltiple software normalmente distribuido bajo una licencia libre o de código abierto. Estadísticas web sugieren que la cuota de mercado de Ubuntu dentro de las distribuciones Linux es, aproximadamente, del 52%, ​y con una tendencia a aumentar como servidor web.<br /><br /> Su patrocinador, Canonical, es una compañía británica propiedad del empresario sudafricano Mark Shuttleworth. Ofrece el sistema de manera gratuita, y se financia por medio de servicios vinculados al sistema operativo y vendiendo soporte técnico. Además, al mantenerlo libre y gratuito, la empresa es capaz de aprovechar los desarrolladores de la comunidad para mejorar los componentes de su sistema operativo. Extraoficialmente, la comunidad de desarrolladores proporciona soporte para otras derivaciones de Ubuntu, con otros entornos gráficos, como Kubuntu, Xubuntu, Ubuntu MATE, Edubuntu, Ubuntu Studio, Mythbuntu, Ubuntu GNOME y Lubuntu.<br /><br /> Canonical, además de mantener Ubuntu, provee una versión orientada a servidores, Ubuntu Server, una versión para empresas, Ubuntu Business Desktop Remix, una para televisores, Ubuntu TV, otra versión para tabletas, Ubuntu Tablet, también Ubuntu Phone​ y una para usar el escritorio desde teléfonos inteligentes, Ubuntu for Android.<br /><br /> Cada seis meses se publica una nueva versión de Ubuntu. Esta recibe soporte por parte de Canonical durante nueve meses por medio de actualizaciones de seguridad, parches para bugs críticos y actualizaciones menores de programas. Las versiones LTS (Long Term Support), que se liberan cada dos años, reciben soporte durante cinco años en los sistemas de escritorio y de servidor.",
+    "tbValues": [
+      "Debian",
+      "GNOME",
+      "apt",
+      "22.04.1 LTS",
+      "Canonical",
+      "2004",
+      "Wayland",
+      "Gratis",
+      1
+    ],
+    "linkDistro": [
+      "ubuntu.com",
+      "https://ubuntu.com/"
+    ]
+  },
+  "kubuntu": {
+    "color": "50b0ff",
+    "desktopImg": "https://www.solvetic.com/uploads/monthly_09_2020/tutorials-9832-0-19308900-1600767059.jpg",
+    "desc": "Distribución basada en Ubuntu con KDE",
+    "descDk": "Kubuntu es una distribución Linux basada en <a href=\"./index.html\" target=\"__blank\">Debian</a> desarrollado por Blue Systems.<br /><br /> Es un derivado oficial de <a href=\"distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>. La K al principio representa la comunidad KDE, la cual le provee de su escritorio (entorno gráfico) y programas. Casualmente, Kubuntu también significa \"gratis\" en el idioma kirundi.<br /><br /> Proporciona un sistema operativo actualizado y estable para el usuario promedio, además de ofrecer un buen rendimiento incluso en máquinas de 64 bits antiguas, con un fuerte enfoque en la facilidad de uso y de instalación del sistema. Al igual que otras distribuciones se compone de múltiples paquetes de software normalmente distribuidos bajo una licencia libre o de código abierto.<br /><br /> Cada paquete en Kubuntu comparte los mismos repositorios de <a href=\"distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>.<br /><br /> Al igual que su hermano mayor, cada seis meses se publica una nueva versión de Kubuntu. Esta recibe soporte por parte de Blue Systems durante nueve meses por medio de actualizaciones de seguridad, parches para bugs críticos y actualizaciones menores de programas. Las versiones LTS (Long Term Support), que se liberan cada dos años, reciben soporte durante cinco años en los sistemas de escritorio y de servidor.<br /><br /> <a href=\"distro_ubuntu.html\" target=\"__blank\">Ubuntu</a> y sus derivadas oficiales, como lo es Kubuntu, fueron seleccionadas por los lectores de desktoplinux.com como una de las distribuciones más populares, llegando a alcanzar aproximadamente el 30% de las instalaciones de Linux en computadoras de escritorio tanto en 2006 como en 2007.",
+    "tbValues": [
+      "Debian",
+      "KDE",
+      "apt",
+      "22.04.1 LTS",
+      "Canonical",
+      "2006",
+      "Wayland",
+      "Gratis",
+      2
+    ],
+    "linkDistro": [
+      "kubuntu.org",
+      "https://kubuntu.org/"
+    ]
+  },
+  "arch": {
+    "color": "157ce0",
+    "desktopImg": "https://miro.medium.com/max/1400/1*f6si2x81dRYzL3UYSNeG0g.png",
+    "desc": "Distribución que le permite elegir prácticamente todos los componentes",
+    "descDk": "Arch Linux es una distribución Linux para computadoras x86-64, arquitecturas ARM y I686 orientada a usuarios avanzados. Se compone en su mayor parte de software libre y de código abierto (FOSS)​ y apoya la participación comunitaria. Su modelo de desarrollo es de tipo Liberación continua (en idioma inglés, \"Rolling Release\") y el enfoque de diseño persigue el Principio KISS. <br /><br /> A diferencia de las distribuciones populares basadas en el Núcleo Linux como <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a> o <a href=\"./index.html\" target=\"__blank\">Linux Mint</a>, Arch Linux no posee herramientas de configuración automática, compartiendo la misma filosofía de distribuciones como <a href=\"./index.html\" target=\"__blank\">Slackware</a>. Para instalar y configurar este sistema operativo se necesita un grado de conocimiento superior al básico. No obstante, se puede mantener y administrar el sistema de forma sencilla.<br /><br />El enfoque de diseño del equipo de desarrollo, sigue el principio KISS (\"Keep It Simple Stupid\" o \"Mantenlo Simple Estúpido\"). Según los creadores y la Comunidad, el principio está centrado en la elegancia, exactitud, minimalismo y simplicidad. Arch Linux define simplicidad como una estructura con una base compacta sin añadidos innecesarios, modificaciones, o complicaciones, que permite a el usuario modificar el sistema de acuerdo a sus propias necesidades. La simplicidad de su estructura no implica sencillez en su manejo.",
+    "tbValues": [
+      "-",
+      "Cualquiera",
+      "pacman",
+      "2022.10.01",
+      "Archlinuxorg",
+      "2006",
+      "Cualquiera",
+      "Gratis",
+      5
+    ],
+    "linkDistro": [
+      "archlinux.org",
+      "https://archlinux.org/"
+    ]
+  },
+  "lubuntu": {
+    "color": "89caff",
+    "desktopImg": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnews-cdn.softpedia.com%2Fimages%2Fnews2%2Fhands-on-with-first-lubuntu-18-10-build-featuring-the-lxqt-desktop-by-default-521200-8.jpg&f=1&nofb=1&ipt=105de2a31777c1e973b801a8117d04bf330be525c9c38bce3969d42c2217598a&ipo=images",
+    "desc": "Distribución basada en Ubuntu con LXQT y mucho más ligera y simple",
+    "descDk": "Lubuntu es una distribución ligera de Linux basada en <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a> que utiliza el entorno de escritorio LXQt en lugar del escritorio GNOME de <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>. Lubuntu se promocionó originalmente como \"más liviano, con menos recursos y más eficiente en energía\", pero ahora pretende ser \"una distribución funcional pero modular enfocada en salir del camino y permitir que los usuarios usen su computadora\". <br /><br /> Lubuntu usó originalmente el escritorio LXDE, pero se cambió al escritorio LXQt con el lanzamiento de Lubuntu 18.10 en octubre de 2018, debido al lento desarrollo de LXDE, perdiendo soporte para GTK así como el desarrollo LXQt más activo y estable sin dependencias de GNOME. El nombre Lubuntu es un acrónimo de LXQt y <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>. El nombre LXQt deriva de la fusión de los proyectos LXDE y Razor-qt, mientras que la palabra <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a> significa \"humanidad hacia los demás\" en los idiomas zulú y xhosa. <br /><br /> Lubuntu recibió el reconocimiento oficial como miembro formal de la familia <a href=\"./distro_ubuntu.html\" target=\"__blank\">Ubuntu</a> el 11 de mayo de 2011, comenzando con Lubuntu 11.10, que se lanzó el 13 de octubre de 2011.",
+    "tbValues": [
+      "Debian",
+      "LXQT",
+      "apt",
+      "22.04.1 LTS",
+      "Canonical",
+      "2009",
+      "Wayland",
+      "Gratis",
+      1
+    ],
+    "linkDistro": [
+      "lubuntu.me",
+      "https://lubuntu.me/"
+    ]
+  },
+  "fedora": {
+    "color": "155fff",
+    "desktopImg": "https://www.debugpoint.com/wp-content/uploads/2022/02/Fedora-36-Workstation-pre-release-1024x563.jpg",
+    "desc": "Distribución basada en Red Hat centrada en la estabilidad y vanguardia tecnológica",
+    "descDk": "Fedora es una distribución GNU/Linux para propósitos generales. Es mantenida por una comunidad internacional de ingenieros, diseñadores gráficos y usuarios. Se caracteriza por su estabilidad, pero también por estar a la vanguardia en la adopción de software libre y de código abierto. Cuenta con el patrocinio principal de Red Hat (subsidiaria de IBM desde 2019), además de otras empresas de tecnologías de la información y fabricantes de equipos de cómputo como Dell o Lenovo. <br /><br /> El proyecto no solo busca incluir software libre y de código abierto, sino ser el líder en estos ámbitos tecnológicos. Algo que hay que destacar es que los desarrolladores de Fedora prefieren hacer cambios en las fuentes originales en lugar de aplicar los parches específicos en su distribución, de esta forma se asegura que las actualizaciones estén disponibles para todas las variantes de GNU/Linux. Max Spevack en una entrevista afirmó que: \"Hablar de Fedora es hablar del rápido progreso del software libre y de código abierto\". Durante sus primeras 6 versiones se llamó Fedora Core, debido a que solo incluía los paquetes más importantes del sistema operativo.",
+    "tbValues": [
+      "Red Hat",
+      "GNOME (Principalmente)",
+      "rpm",
+      "36",
+      "Red Hat",
+      "2003",
+      "Wayland",
+      "Gratis",
+      2
+    ],
+    "linkDistro": [
+      "fedora.org",
+      "https://getfedora.org/"
+    ]
+  },
+  "manjaro": {
+    "color": "6aff7d",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Manjaro_KDEPlasma_21.3.1_220624-linux515.png/800px-Manjaro_KDEPlasma_21.3.1_220624-linux515.png?20220705191626",
+    "desc": "Distribución basada en Arch Linux enfocada en ser una versión de Arch más simple.",
+    "descDk": "Manjaro Linux, o Manjaro, es una distribución GNU/Linux, con Xfce, KDE o GNOME Shell como interfaz de usuario por defecto (además dispone de más interfaces que son soportadas por la comunidad). Se trata básicamente de un sistema operativo libre para computadores personales y enfocado en la facilidad de uso. Está basado en <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a> y usa un modelo de desarrollo denominado rolling release o de Liberación continua. <br /><br /> Manjaro Linux está basado en <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a>, pero tiene su propio conjunto de repositorios. La distribución apunta a ser amigable con el usuario manteniendo las características de <a href=\"./distro_arch.html\" target=\"__blank\">Arch</a>, como por ejemplo el gestor de paquetes Pacman y la compatibilidad con el AUR. Manjaro utiliza tres repositorios: el unstable que contiene los más recientes paquetes de <a href=\"./distro_arch.html\" target=\"__blank\">Arch</a>, probablemente con un retraso de uno a dos días; el repositorio testing que agrega paquetes desde el repositorio unstable cada semana; y el repositorio stable que contiene sólo paquetes que son considerados estables por el equipo de desarrollo, además de scripts que ayudan a que las actualizaciones conflictivas se configuren automáticamente sin necesidad de intervención del usuario, como en el caso de las otras ramas, o en <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a>.",
+    "tbValues": [
+      "Arch Linux",
+      "Elegible",
+      "pacman",
+      "21.3.7",
+      "ManjaroOrg",
+      "2014",
+      "Wayland",
+      "Gratis",
+      3
+    ],
+    "linkDistro": [
+      "manjaro.org",
+      "https://manjaro.org/"
+    ]
+  },
+  "endeavourOS": {
+    "color": "955cff",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/EndeavourOS_21.4_screenshot.png/1280px-EndeavourOS_21.4_screenshot.png",
+    "desc": "Distribución basada en Arch Linux con el objetivo principal de hacer la instalación más fácil.",
+    "descDk": "EndeavourOS es una distribución GNU/Linux, con Xfce como interfaz de usuario por defecto. Se trata básicamente de un sistema operativo libre para computadores personales y enfocado en la facilidad de uso. Está basado en <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a> y usa un modelo de desarrollo denominado rolling release o de Liberación continua. El objetivo de EndeavourOS es ser lo más parecido a la distribución <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a> como sea razonablemente posible y ofrecer una experiencia amigable, haciendo que sea fácil de instalar. <br /><br /> Fue desarrollado con la idea de ser el sucesor de Antergos, una distribución Linux que fue discontinuada. Sin embargo, no es un \"fork\" de Antergos. <br /><br /> EndeavourOS utiliza el conocido instalador Calamares para automatizar el proceso de instalación de <a href=\"./distro_arch.html\" target=\"__blank\">Arch Linux</a>, normalmente complejo y basado en la línea de comandos. Ofrece el entorno de escritorio Xfce en modo Live, no se incluye un administrador de paquetes gráfico por defecto. <br /><br /> Admite los siguientes escritorios: Xfce (oficial), Base, i3, Openbox, MATE, Cinnamon, GNOME, Deepin Desktop, Budgie y KDE Plasma.",
+    "tbValues": [
+      "Arch Linux",
+      "Xfce (Principalmente)",
+      "pacman",
+      "Artemis Nova 22.9",
+      "EndeavourOS Community",
+      "2020",
+      "Wayland",
+      "Gratis",
+      4
+    ],
+    "linkDistro": [
+      "endeavouros.com",
+      "https://endeavouros.com/"
+    ]
+  },
+  "pop!OS": {
+    "color": "7ffafa",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apps_Pop%21_OS_21.10.png/1280px-Apps_Pop%21_OS_21.10.png",
+    "desc": "Distribución basada en Ubuntu centrada en la compatibilidad y buen funcionamiento con hardware actual.",
+    "descDk": "Pop!_OS es una distribución de Linux gratuita y de código abierto, basada en <a href=\"distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>, con un escritorio GNOME personalizado. La distribución está desarrollada por el fabricante estadounidense de computadoras Linux System76. Pop!_OS está diseñado principalmente para integrarse con las computadoras creadas por System76, pero también se puede descargar e instalar en la mayoría de las computadoras. <br /><br /> Pop!_OS proporciona soporte completo y listo para usar en las unidad de procesamiento gráfico de AMD y Nvidia. Se considera una distribución fácil de configurar para juegos, principalmente debido a su compatibilidad con GPU incorporada. Pop!_OS proporciona cifrado de disco predeterminado, administración optimizada de ventanas y espacios de trabajo, atajos de teclado para la navegación y perfiles de administración de energía integrados. Las últimas versiones también tienen paquetes que permiten una configuración sencilla para TensorFlow y CUDA. <br /><br /> Pop!_OS es mantenido principalmente por System76, con el código fuente abierto de la versión de lanzamiento alojado en un repositorio de GitHub. A diferencia de muchas otras distribuciones de Linux, esta no está impulsada por la comunidad, aunque los programadores externos pueden contribuir, ver y modificar el código fuente y también pueden crear imágenes ISO personalizadas y redistribuirlas con otro nombre",
+    "tbValues": [
+      "Ubuntu",
+      "GNOME",
+      "apt",
+      "22.04 LTS",
+      "System76",
+      "2017",
+      "Wayland",
+      "Gratis",
+      1
+    ],
+    "linkDistro": [
+      "pop.system76.com",
+      "https://pop.system76.com/"
+    ]
+  },
+  "linuxMint": {
+    "color": "8dfa7f",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apps_Pop%21_OS_21.10.png/1280px-Apps_Pop%21_OS_21.10.png",
+    "desc": "Distribución basada en Debian centrado en ser poderoso y elegante, a la vez que simple.",
+    "descDk": "Linux Mint es una distribución de GNU/Linux comunitaria de origen franco-irlandesa basada en <a href=\"distro_ubuntu.html\" target=\"__blank\">Ubuntu</a>, y a su vez en <a href=\"#\" target=\"__blank\">Debian</a>, que tiene por objetivo proveer \"un sistema operativo moderno, elegante y cómodo que sea tanto poderoso como fácil de usar\". Linux Mint soporta varios formatos y códecs multimedia al incluir software propietario y empaquetado con una variedad de aplicaciones gratuitas y de código abierto. <br /><br /> El proyecto fue concebido por Clément Lefèbvre y está siendo activamente desarrollado por el Equipo de Linux Team y la comunidad.",
+    "tbValues": [
+      "Debian",
+      "Xfce",
+      "apt",
+      "20.03 LTS",
+      "Linux Community",
+      "2006",
+      "Wayland",
+      "Gratis",
+      1
+    ],
+    "linkDistro": [
+      "linuxmint.com",
+      "https://linuxmint.com/"
+    ]
+  },
+  "redHat": {
+    "color": "ff2828",
+    "desktopImg": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Red_Hat_Enterprise_Linux_9_Workstation_showing_GNOME_Shell_40.png",
+    "desc": "Distribución paga basada en Fedora con diferentes versiones centradas en empresas, con programas propios pagos.",
+    "descDk": "Red Hat Enterprise Linux (RHEL) es una distribución comercial de Linux de código abierto desarrollada por Red Hat para el mercado comercial. Red Hat Enterprise Linux se lanza en versiones de servidor para x86-64, Power ISA, ARM64 e IBM Z y una versión de escritorio para x86-64. <a href=\"distro_fedora.html\" target=\"__blank\">Fedora</a> Linux sirve como su fuente ascendente. Todo el soporte y la capacitación oficiales de Red Hat, junto con el Programa de certificación de Red Hat, se enfocan en la plataforma Red Hat Enterprise Linux. <br /><br /> La primera versión de Red Hat Enterprise Linux que llevó el nombre salió originalmente al mercado como \"Red Hat Linux Advanced Server\". En 2003, Red Hat cambió el nombre de Red Hat Linux Advanced Server a \"Red Hat Enterprise Linux AS\" y agregó dos variantes más, Red Hat Enterprise Linux ES y Red Hat Enterprise Linux WS. <br /><br /> Red Hat utiliza reglas estrictas de marcas registradas para restringir la redistribución gratuita de sus versiones compatibles oficialmente de Red Hat Enterprise Linux, pero aún proporciona su código fuente de forma gratuita. Los derivados de terceros se pueden crear y redistribuir eliminando los componentes que no son gratuitos, como las marcas comerciales de Red Hat. Los ejemplos incluyen distribuciones respaldadas por la comunidad como Rocky Linux y AlmaLinux, y bifurcaciones comerciales como Oracle Linux.",
+    "tbValues": [
+      "-",
+      "GNOME",
+      "rpm",
+      "9.0",
+      "Red Hat",
+      "2000",
+      "Wayland",
+      "US$179 (Workstation Version)",
+      4
+    ],
+    "linkDistro": [
+      "redhat.com",
+      "https://www.redhat.com/es/technologies/linux-platforms/enterprise-linux"
+    ]
+  }
+}

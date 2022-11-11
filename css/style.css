@@ -1,0 +1,360 @@
+@font-face {
+  font-family: "product_sans_mediumregular";
+  src: url("../fonts/google-sans/ProductSans-Medium.ttf");
+}
+@font-face {
+  font-family: "product_sans_light";
+  src: url("../fonts/google-sans/ProductSans-Light.ttf");
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #121212;
+  height: 100%;
+  transition: 0.3s ease all;
+}
+body.light html {
+  background-color: #fcfcfc;
+}
+
+#x {
+  color: #3ba;
+  -webkit-animation-name: x;
+          animation-name: x;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes x {
+  0% {
+    color: #3ba;
+  }
+  /*50%{color: #5d6dff;}*/
+  50% {
+    color: #ff9e5d;
+  }
+  100% {
+    color: #3ba;
+  }
+}
+
+@keyframes x {
+  0% {
+    color: #3ba;
+  }
+  /*50%{color: #5d6dff;}*/
+  50% {
+    color: #ff9e5d;
+  }
+  100% {
+    color: #3ba;
+  }
+}
+body {
+  margin: 0;
+  background-color: #121212;
+  overflow-x: hidden;
+  height: 100%;
+  transition: 0.3s ease all;
+}
+body.light {
+  background-color: #fcfcfc;
+}
+
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: #111;
+  width: 100%;
+  align-items: center;
+  padding: 0.3rem;
+}
+header a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #454545;
+}
+
+nav {
+  display: flex;
+  background-color: #444;
+  height: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 1.3rem;
+}
+nav .nav-tl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.6rem;
+}
+nav .nav-tl a {
+  transition: all 0.2s ease 20ms;
+  color: white;
+  font-family: product_sans_mediumregular;
+  text-decoration: none;
+}
+nav .nav-tl a:hover {
+  font-size: 1.1rem;
+  color: rgb(168, 168, 168);
+}
+
+.switch {
+  background-color: #111111;
+  border-radius: 1000px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  position: relative;
+  width: 45px;
+}
+.switch::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #f1f1f1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.switch.active {
+  background: orange;
+  color: #020202;
+}
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+.switch span {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  background: none;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: white;
+  font-family: product_sans_mediumregular;
+  margin-left: 1rem;
+}
+
+.distros-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  justify-content: center;
+  background-color: #121212;
+  align-items: baseline;
+  gap: 2rem;
+  transition: 0.3s ease all;
+}
+body.light .distros-container {
+  background-color: #fcfcfc;
+}
+
+.distros-container a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.distros {
+  width: 40vw;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 7px;
+  padding: 0.5rem;
+  background-color: #222;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-name: opacidad-distros;
+          animation-name: opacidad-distros;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  transition: 0.3s ease background-color;
+}
+body.light .distros {
+  background-color: #fcfcfc;
+  border: solid #aaa 0.5px;
+}
+
+@-webkit-keyframes opacidad-distros {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacidad-distros {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.distros img {
+  width: 7rem;
+  height: 7rem;
+  margin-right: 1.7rem;
+}
+
+.distros h2 {
+  color: white;
+  font-family: product_sans_mediumregular;
+  font-size: 2rem;
+  transition: all 0.2s ease 20ms;
+}
+body.light .distros h2 {
+  color: #222;
+}
+
+.version span,
+.version,
+.descrip span,
+.descrip,
+.dif {
+  transition: all 0.2s ease 20ms;
+}
+body.light .version span,
+body.light .version,
+body.light .descrip span,
+body.light .descrip,
+body.light .dif {
+  color: #222;
+}
+
+.distros h2:hover {
+  font-size: 2.2rem;
+}
+
+.caract {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.ver_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.ver_desc p {
+  font-family: product_sans_light;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.dific {
+  display: inline-flex;
+}
+
+.dific h4 {
+  font-family: product_sans_mediumregular;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.oneStar {
+  font-family: product_sans_mediumregular;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  color: #5ce67a;
+}
+
+.twoStars {
+  font-family: product_sans_mediumregular;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  color: #aecc53;
+}
+
+.threeStars {
+  font-family: product_sans_mediumregular;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  color: rgb(221, 221, 52);
+}
+
+.fourStars {
+  font-family: product_sans_mediumregular;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  color: orange;
+}
+
+.fiveStars {
+  font-family: product_sans_mediumregular;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  color: red;
+}
+
+.caract span {
+  font-family: product_sans_mediumregular;
+  color: white;
+}
+
+html {
+  background-color: #121212 !important;
+}
+
+@media (max-width: 768px) {
+  .distros {
+    width: 20rem;
+    margin-right: 0;
+    border: solid #444 1px;
+  }
+  .distros img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .distros-container {
+    padding: 1rem;
+  }
+  .distros-container {
+    margin: 0;
+    padding: 0;
+  }
+  .caract {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
